@@ -1,0 +1,1 @@
+podman run -d -p 4567:4567 -v /etc/localtime:/etc/localtime:ro -v /home/yardi/Projects/hamstercms-ruby:/app --name hamstercms-ruby-c1 hamstercms-ruby
